@@ -1,0 +1,46 @@
+.-but-exit {
+    background-color: #ff5757;
+    color: #FFF;
+    border: none;
+}
+.-but-exit:hover {
+    background-color: #e05454;
+    color: #FFF;
+    border: none;
+}
+
+.-header {
+    background-color: antiquewhite;
+}
+.-content {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.-character {
+    color: black;
+    padding: 25px 40px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer; /* กำหนดสีพื้นหลังเริ่มต้น */
+    user-select: none;
+}
+
+.-character:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 8px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    cursor: pointer; /* โปร่งใส */
+    /* หรือใช้ background-color: transparent; */
+}
+
+.-character:active {
+    transform: translateY(-2px); /* ยุบลงเมื่อถูกกด */
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.1);
+}
+
+
